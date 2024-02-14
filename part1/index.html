@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordions TailwindCSS Part 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body>
+    <div class="w-[400px] mx-auto mt-5">
+        <!-- (w-[400px] mx-auto mt-5) this can be used according to your requirement-->
+        <details
+            class="w-full mb-5 max-w-[1366px] bg-[#f2f6ff] py-2 rounded-md shadow-md group mx-auto max-h-[56px] open:!max-h-full transition-[max-height] duration-500 overflow-hidden">
+            <summary
+                class="outline-none cursor-pointer font-semibold marker:text-transparent group-open:before:rotate-90 before:origin-center relative before:w-[30px] before:h-[18px] before:transition-transform before:duration-200 before:-right-1 before:top-2/4 before:-translate-y-2/4 before:absolute before:bg-no-repeat before:bg-[length:18px_18px] before:bg-center before:bg-[url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20class%3D%22h-6%20w-6%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%3E%0A%20%20%3Cpath%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M9%205l7%207-7%207%22%20%2F%3E%0A%3C%2Fsvg%3E')]">
+                <span
+                    class="relative rounded inline-flex text-sm py-2 px-2 mr-4 text-white bg-[#44D7B6] before:content-['Accordion'] before:pr-1">
+                    <span class="-order-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-map-pin">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </span>
+                    <span
+                        class="absolute w-0 h-0 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-l-[6px] border-l-[#44D7B6] -right-[6px] top-[10px]"></span>
+                    1
+                </span>
+                <span class="capitalize">Arrival In Goa</span>
+            </summary>
+            <hr class="my-2 scale-x-150" />
+            <div class="text-sm -m-4 -mt-2 p-6 bg-gray-50">
+                <ul class="m-2">
+                    <li class="p-2"> Arrival at Dabolim Airport or Madgaon Railway Station.
+                    </li>
+                    <li class="p-2"> Arrival at Dabolim Airport or Madgaon Railway Station.
+                    </li>
+                    <li class="p-2"> Arrival at Dabolim Airport or Madgaon Railway Station.
+                    </li>
+                    <li class="p-2"> Arrival at Dabolim Airport or Madgaon Railway Station.
+                    </li>
+                </ul>
+            </div>
+        </details>
+        <details
+            class="w-full mb-5 max-w-[1366px] bg-[#f2f6ff] py-2 rounded-md shadow-md group mx-auto max-h-[56px] open:!max-h-full transition-[max-height] duration-500 overflow-hidden">
+            <summary
+                class="outline-none cursor-pointer font-semibold marker:text-transparent group-open:before:rotate-90 before:origin-center relative before:w-[30px] before:h-[18px] before:transition-transform before:duration-200 before:-right-1 before:top-2/4 before:-translate-y-2/4 before:absolute before:bg-no-repeat before:bg-[length:18px_18px] before:bg-center before:bg-[url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20class%3D%22h-6%20w-6%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%3E%0A%20%20%3Cpath%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M9%205l7%207-7%207%22%20%2F%3E%0A%3C%2Fsvg%3E')]">
+                <span
+                    class="relative rounded inline-flex text-sm py-2 px-2 mr-4 text-white bg-[#44D7B6] before:content-['Accordion'] before:pr-1">
+                    <span class="-order-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-map-pin">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </span>
+                    <span
+                        class="absolute w-0 h-0 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-l-[6px] border-l-[#44D7B6] -right-[6px] top-[10px]"></span>
+                    2
+                </span>
+                <span class="capitalize">Arrival In Goa</span>
+            </summary>
+            <hr class="my-2 scale-x-150" />
+            <div class="text-sm -m-4 -mt-2 p-6 bg-gray-50">
+                <ul class="m-2">
+                    <li class="p-2"> Arrival at Dabolim Airport or Madgaon Railway Station.
+                    </li>
+                    <li class="p-2"> Arrival at Dabolim Airport or Madgaon Railway Station.
+                    </li>
+                    <li class="p-2"> Arrival at Dabolim Airport or Madgaon Railway Station.
+                    </li>
+                    <li class="p-2"> Arrival at Dabolim Airport or Madgaon Railway Station.
+                    </li>
+                </ul>
+
+            </div>
+        </details>
+    </div>
+
+</body>
+
+</html>
